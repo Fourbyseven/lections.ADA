@@ -1,0 +1,3 @@
+
+# number_operations сложения    - % - // - **
+# for in, while - Циклы

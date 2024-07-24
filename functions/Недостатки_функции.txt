@@ -1,0 +1,7 @@
+1) Функции               +
+2) args kwargs           +
+3) lambda                +       
+4) Задачи на функции и lambda, Функции   +
+5) built in function                     +
+6) Задачи на - built in function         +
+7) Области Видимости  Функций            +
