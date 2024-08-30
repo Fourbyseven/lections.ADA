@@ -103,37 +103,33 @@ text = """
 
 
 
-#6) Создайте файл и запишите туда текст №3(github). 
-#В каждой строчке есть цифры, которые вместе дадут число. Посчитайте сумму всех чисел. 
+# #6) Создайте файл и запишите туда текст №3(github). 
+# #В каждой строчке есть цифры, которые вместе дадут число. Посчитайте сумму всех чисел. 
 
-# """
+# # """
+# # 123
+# # aaa456
+# # fxdya 5 0 0
+# # """
+
+# text =  """
 # 123
 # aaa456
-# fxdya 5 0 0
+# fxdya 500
 # """
-
-text =  """
-123
-aaa456
-fxdya 500
-"""
  
-with open('task6.txt', 'w') as file:
-    file.write(text)
-total_sum = 0
-with open('task6.txt', 'r') as file:
-    for line in file:
-        print(line)
-        for word in line.split():
-            number = ''.join(filter(str.isdigit, word))
-            if number:
-                total_sum += int(number)
+# with open('task6.txt', 'w') as file:
+#     file.write(text)
+# total_sum = 0
+# with open('task6.txt', 'r') as file:
+#     for line in file:
+#         print(line)
+#         for word in line.split():
+#             number = ''.join(filter(str.isdigit, word))
+#             if number:
+#                 total_sum += int(number)
 
-print(f"Сумма чисел:        {total_sum}")
-
-
-
-
+# print(f"Сумма чисел:        {total_sum}")
 
 
 

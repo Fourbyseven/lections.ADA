@@ -167,25 +167,19 @@ print("___________________________________________")
 
 
 my_dict = {1: 'a', 2: 'b'}
-my_dict_2 = {}
+# my_dict_2 = {}
 
-for keys, value in my_dict.items():
-    my_dict_2[value] = keys
+# for keys, value in my_dict.items():
+#     my_dict_2[value] = keys
 
-print(my_dict_2)
-
-
+# print(my_dict_2)
 
 
 
 
 
-
-
-
-
-
-
+my_num  = lambda x, y: 'yes' if x > y else x
+print(my_num(40, 20))
 
 
 

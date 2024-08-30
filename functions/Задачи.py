@@ -52,7 +52,6 @@ from functools import reduce
 # res = reduce(lambda x, y: x if len(x) > len(y) else y, list1)
 # print(res)
 
-
 #Напишите программу которая меняет число на 'fizz' если оно делитьсяна на 3,  и на строку 'buzz'
 # Если не делиться в диапозоне чисел от 1 до 50 включительно
 
